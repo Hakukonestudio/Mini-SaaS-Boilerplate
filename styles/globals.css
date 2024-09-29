@@ -1,0 +1,29 @@
+/* styles/globals.css */
+
+/* Tailwind CSS'i põhistilid */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Täiendavad globaalset stiilid */
+body {
+    background-color: var(--background); /* Kasuta CSS muutujaid otse */
+    color: var(--foreground);
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Lisastiilid, kui vajalik */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold; /* Näiteks pealkirjadele rasvane font */
+}
+
+a {
+    color: #3b82f6; /* Tailwind'i sinine värv */
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #1d4ed8; /* Tumem sinine hover */
+}
